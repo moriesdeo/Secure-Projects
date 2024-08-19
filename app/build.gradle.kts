@@ -6,14 +6,14 @@ plugins {
 
 android {
     namespace = "id.secure.prefs"
-    compileSdk = 33
+    compileSdk = 34
 
     defaultConfig {
         applicationId = "id.secure.prefs"
         minSdk = 23
-        targetSdk = 33
-        versionCode = 2
-        versionName = "1.1"
+        targetSdk = 34
+        versionCode = 1
+        versionName = "1.0"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
