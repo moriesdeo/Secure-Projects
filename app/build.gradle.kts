@@ -5,7 +5,7 @@ plugins {
 }
 
 group = "com.github.moriesdeo"
-version = "v1.0.4"
+version = "v1.0.5"
 
 android {
     namespace = "id.secure.prefs"
@@ -32,7 +32,7 @@ android {
         targetCompatibility = JavaVersion.VERSION_17
     }
     kotlinOptions {
-        jvmTarget = "11"
+        jvmTarget = "17"
     }
 }
 
