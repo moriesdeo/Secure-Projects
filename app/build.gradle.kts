@@ -5,7 +5,7 @@ plugins {
 }
 
 group = "com.github.moriesdeo"
-version = "v1.0.6"
+version = "v1.0.0"
 
 android {
     namespace = "id.secure.prefs"
