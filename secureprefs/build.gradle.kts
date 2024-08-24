@@ -4,6 +4,9 @@ plugins {
     id("maven-publish")
 }
 
+group = "com.github.moriesdeo"
+version = "v1.0.3"
+
 android {
     namespace = "id.secure.secureprefs"
     compileSdk = 34
@@ -40,4 +43,11 @@ dependencies {
     implementation(libs.bouncycastle)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
+}
+
+tasks.withType<Jar> {
+    manifest {
+        attributes["Implementation-Title"] = project.name
+        attributes["Implementation-Version"] = version
+    }
 }
