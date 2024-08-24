@@ -27,7 +27,12 @@ repositories {
 ## Usage
 Initialize SecurePrefs
 ```kotlin
+// Use AES
 val securePrefs = SecurePreferences(context, "AES")
+// Use RSA encryption
+val securePrefs = SecurePreferences(context, "RSA")
+// Use ChaCha20 encryption
+val securePrefs = SecurePreferences(context, "ChaCha20")
 
 ```
 ## Save data securely
@@ -43,13 +48,6 @@ val token = securePrefs.getSecureData("user_token")
 ## Clear specific data
 ```kotlin
 securePrefs.clearData("user_token")
-
-```
-## Choosing an Encryption Algorithm
-
-```kotlin
-// Use RSA encryption
-val securePrefs = SecurePreferences(context, "RSA")
 
 ```
 ## HMAC Verification
