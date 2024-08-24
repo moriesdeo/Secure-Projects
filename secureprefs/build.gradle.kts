@@ -1,11 +1,7 @@
 plugins {
     alias(libs.plugins.android.library)
     alias(libs.plugins.jetbrains.kotlin.android)
-    `maven-publish`
 }
-
-group = "com.github.moriesdeo"
-version = "v1.0.4"
 
 android {
     namespace = "id.secure.secureprefs"
@@ -43,11 +39,4 @@ dependencies {
     implementation(libs.bouncycastle)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
-}
-
-tasks.withType<Jar> {
-    manifest {
-        attributes["Implementation-Title"] = project.name
-        attributes["Implementation-Version"] = version
-    }
 }
