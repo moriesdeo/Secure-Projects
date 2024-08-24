@@ -1,7 +1,7 @@
 plugins {
+    `maven-publish`
     alias(libs.plugins.android.application)
     alias(libs.plugins.jetbrains.kotlin.android)
-    `maven-publish`
 }
 
 group = "com.github.moriesdeo"
