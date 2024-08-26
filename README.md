@@ -60,8 +60,7 @@ val token = securePrefs.getSecureData("user_token")
 Contributions are welcome! Please open a pull request for bug fixes, new features, or documentation improvements.
 
 ## Support
-If you find this project useful, consider buying me a coffee:
-- [Buy Me a Coffee](https://buymeacoffee.com/nasio)
+If you find this project useful, consider buying me a coffee: [Buy Me a Coffee](https://buymeacoffee.com/nasio)
 
 
 [![](https://jitpack.io/v/moriesdeo/Secure-Projects.svg)](https://jitpack.io/#moriesdeo/Secure-Projects)
